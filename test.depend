@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1365388338 source:c:\users\tonchy\programacion\c++\librerias\winh_win32.c
+	<windows.h>
+
+1367729473 source:c:\users\tonchy\programacion\c++\others\projects\test\testa.c
+	<map_writter.c>
+
+1376075618 source:c:\users\ggalante\desktop\c++\workspaces\projects\test\testa.c
+	<map_writter.c>
+
