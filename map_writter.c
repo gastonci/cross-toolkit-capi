@@ -110,9 +110,8 @@ int addImage(struct mapWritter *mw,const char* str)//use writteMap first in orde
     mw->current_line++;
     if(debug) printf("current line now is %u\n",mw->current_line);
     buff = (int*) realloc(mw->LNpos,mw->current_line * sizeof(int));
+    if(buff == NULL && debug)printf("Error allocating memory");
     if(debug) printf("mw->LNpos copy increased memory slot\n");
-    printf("----------%i--------------\n",buff[0]);
-    if(debug) printf("free mw->LNpos\n");
     mw->LNpos = buff;
     if(debug) printf("mw->LNpos now points to increased copy\n");
     mw->LNpos[mw->current_line] = ftell(mw->file);

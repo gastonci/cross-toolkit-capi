@@ -31,14 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../../../Librerias/cross-toolkit/map_writter.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="../../../Librerias/cross-toolkit/winH_win32.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
 		<Unit filename="testa.c">
 			<Option compilerVar="CC" />
 		</Unit>
